@@ -26,7 +26,7 @@ So we split into 2 separate calls:
     $ curl http://localhost:8000/dynamic/Giorgenes
     {"name":"Giorgenes"}
 
-Then we use [Varnish ESI black](https://www.varnish-cache.org/docs/4.0/users-guide/esi.html?highlight=esi_syntax)
+Then we use [Varnish ESI black magic](https://www.varnish-cache.org/docs/4.0/users-guide/esi.html?highlight=esi_syntax)
 to tie the 2 backend methods together. We have to make the api call on
 the backend return ESI information to varnish, like so:
 
