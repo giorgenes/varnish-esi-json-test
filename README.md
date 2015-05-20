@@ -13,8 +13,8 @@ ESI to join the outputs.
 
 Supose we want an api like so:
 
-  curl http://localhost/hi/Giorgenes
-  {"message":"hello", "name":"5"}
+    $ curl http://localhost/hi/Giorgenes
+    {"message":"hello", "name":"5"}
 
 # Dependencies
 
